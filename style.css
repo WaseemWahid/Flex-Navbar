@@ -1,0 +1,38 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.nav{
+    background-color: slateblue;
+    color: whitesmoke;
+    height: 80px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.btn{
+    height:40px;
+    width: 100px;
+    background-color: whitesmoke;
+    border: none;
+    box-shadow: 5px 5px gray;
+    font-size: large;
+}
+
+.nav-title{
+    margin-left: 15px;
+}
